@@ -274,7 +274,7 @@ import {
       backgroundUrl: "assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
-      light: true,
+      
     },
     {
       id: "4",
@@ -283,6 +283,7 @@ import {
       backgroundUrl: "assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
+      light: true,
     },
     {
       id: "5",
