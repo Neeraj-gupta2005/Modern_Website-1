@@ -4,6 +4,8 @@ import { roadmap } from "../constants";
 import grid from "../assets/grid.png";
 import TagLine from "./TagLine";
 import { check2, loading1 } from "../assets";
+import { Gradient } from "./design/Hero";
+import Button from "./Button";
 
 const Roadmap = () => {
   return (
@@ -67,6 +69,12 @@ const Roadmap = () => {
               </div>
             );
           })}
+
+          <Gradient />
+        </div>
+
+        <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+          <Button href="/roadmap">Our roadmap</Button>
         </div>
       </div>
     </Section>
